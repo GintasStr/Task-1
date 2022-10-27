@@ -17,7 +17,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
   const kg = document.getElementById("search").value;
 
   const svarai = document.createElement("h3");
-  svarai.textContent = "Svarai:" + " " + kg * 2.2046 + " " + "kg";
+  svarai.textContent = "Svarai:" + " " + kg * 2.2046 + " " + "lb";
 
   const gramai = document.createElement("h3");
   gramai.textContent = "Gramai:" + " " + kg / 0.001 + " " + "g";
